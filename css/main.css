@@ -1,0 +1,64 @@
+.navbar-brand img {
+    background-color: snow;
+    border-radius: 50%;
+}
+
+.dropdown-item {
+    color: snow;
+}
+
+.carousel-item img {
+    max-height: 420px;
+    min-height: 300px;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.main-carousel {
+    margin-top: 57px;
+}
+
+.site-footer {
+    height: 55px;
+}
+
+.site-footer p {
+    font-size: 1em;
+}
+
+.clubs-cards {
+    /* width: 100vw; */
+    flex-wrap: wrap;
+}
+
+.clubs-cards.card {
+    width: 18rem;
+}
+
+.clubs-cards img {
+    max-height: 190px;
+    object-fit: cover;
+}
+
+.card-holder {
+    max-width: 380px;
+}
+
+.matches-container.card {
+    width: 18rem;
+    border-radius: 10%;
+}
+
+.card img {
+    max-height: 160px;
+}
+
+.clubs-title {
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.clubs-title-span {
+    text-decoration: none;
+}
