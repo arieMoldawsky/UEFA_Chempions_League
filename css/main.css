@@ -29,6 +29,7 @@
 .clubs-cards {
     /* width: 100vw; */
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .clubs-cards.card {
@@ -56,9 +57,60 @@
 .clubs-title {
     font-weight: bolder;
     font-style: italic;
-    text-decoration: underline;
+    background-color: gray;
+    margin-top: 58px;
 }
 
-.clubs-title-span {
-    text-decoration: none;
+.last-tr {
+    border-bottom: 1.5px solid gray;
+}
+
+.rankings-table tr:hover {
+    background-color: snow;
+}
+
+.rankings-title {
+    background-color: gray;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 58px;
+    margin-bottom: 30px;
+}
+
+.table-container {
+    margin-bottom: 150px;
+}
+
+.form-container {
+    margin-bottom: 90px;
+}
+
+.contact-title {
+    background-color: yellow;
+    font-style: italic;
+    margin-top: 58px;
+    margin-bottom: 30px;
+}
+
+.message-text {
+    text-align: left;
+}
+
+.about-title {
+    background-color: rgb(153, 153, 151);
+    font-style: italic;
+    margin-top: 58px;
+    margin-bottom: 30px;
+}
+
+.about-container {
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+.about-container span {
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+
 }
